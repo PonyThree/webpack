@@ -1,0 +1,31 @@
+{
+  "name": "xuezi",
+  "version": "1.0.0",
+  "description": "exercise project for tedu students",
+  "main": "main.js",
+  "scripts": {
+    "test": "node ./test.js",
+    "start": "node ./main.js",
+    "stop": "node ./stop.js",
+    "build": "node ./node_modules/webpack/bin/webpack.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gw/xuezi.git"
+  },
+  "keywords": [
+    "tedu",
+    "exercise",
+    "node",
+    "webpack"
+  ],
+  "author": "ponywei",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gw/xuezi/issues"
+  },
+  "homepage": "https://github.com/gw/xuezi#readme",
+  "devDependencies": {
+    "mysql": "^2.16.0"
+  }
+}

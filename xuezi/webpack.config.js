@@ -11,11 +11,17 @@ module.exports={
 	},
 	// 3.加载器(loader)--打包各种非js模块的文件
 	module:{
-		// css模块的加载
+		// css模块文件的加载规则
 		rules:[
 			{
 				test:/\.css$/,
 				use:['style-loader','css-loader']
+			},
+			// 图片模块文件的加载规则
+			{
+				test:/\.(jpg|.png|gif)$/,
+				use:['url-loader']
+
 			}
 		]
 	}
